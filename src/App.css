@@ -1,0 +1,238 @@
+/* variables */
+:root{
+  --yellow: #FAB20B;
+  --white: #f8f8ff;
+  --jazzberry: #A90650;
+  --claret: #760B39;
+  --lightgray: #d3d3d3;
+  --gray: #666666;
+}
+
+/* initial styles */
+.app{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+body{
+  font-family: 'AvenirRegular';
+  font-size: 20px;
+}
+p,h1,h2,h3,h4,h5{
+  text-align: flex-start;
+}
+p{
+  font-size: 0.75em;
+}
+h1{
+  font-size: 0.5em;
+}
+h2{
+  font-size: 1em;
+}
+h3{
+  font-size: 1.5em;
+}
+h4{
+  font-size: 1.75em;
+}
+h5{
+  font-size: 2em;
+}
+/* fonts */
+@font-face{
+  font-family: 'AvenirRegular';
+  src: url('./asset/font/AvenirRegular.ttf')
+}
+
+/* mobile */
+.app-prim img{
+  height: 60vh;
+  width:100vw;
+}
+.app-sec{
+  transform: translateY(-10%);
+}
+.app-sec .product-list{
+  display: flex;
+  height: 40vh;
+  width: 100vw;
+  flex-direction: row;
+  transform: translateY(-10%);
+}
+.app-sec img{
+  width: 100%;
+  margin: 0;
+}
+.app-content{
+  position: fixed;
+  height: 40vh;
+  width: 80vw;
+  margin: 0 5%;
+  transform: translateY(-100%);
+}
+.app-content h3{
+  color: var(--white);
+  font-weight: 900;
+}
+.app-content h2{
+  display: none;
+}
+.app-content button{
+  border: none;
+  border-bottom: 3px solid var(--white);
+  background-color: transparent;
+  color: var(--white);
+  font-weight: 900;
+  font-size: 0.8em;
+}
+.product-card{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  border-radius: 10px;
+  margin: 5% 3%;
+}
+.product-card *{
+  margin: 3% 0%;
+  width: 100%;
+  height: 100%;
+}
+.info-card{
+  display: flex;
+  flex-direction: column;
+  padding: 5% 2%;
+  width: 80%;
+  transform: translateX(5%);
+  text-align: flex-start;
+}
+.color-circle{
+  display:grid;
+  grid-template-columns: repeat(6,1fr);
+}
+.color-circle p{
+  width: 3vw;
+  height: 2vh;
+  border-radius: 10px;
+  margin: 3%;
+  padding:3%;
+}
+/* tablet */
+@media screen and (min-width:600px){
+  body{
+    font-size: 25px;
+  }
+  .app-prim img{
+    height: 80vh;
+    width:100vw;
+  }
+  .app-content{
+    position: fixed;
+    height: 40vh;
+    width: 80vw;
+    margin: 0 5%;
+    transform: translateY(-180%);
+  }
+  .app-sec .product-list{
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    transform: translateY(-40%);
+  }
+}
+/* laptop-desktop */
+@media screen and (min-width:900px){
+  body{
+    font-size: 25px;
+  }
+  .app{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .app-prim{
+    height: 100vh;
+    width: 50vw;
+  }
+  .app-prim img{
+    height: 100vh;
+    width: 50vw;
+  }
+  .app-sec{
+    height: 100vh;
+    width: 50vw;
+    transform: translateY(25%)
+  }
+  .app-sec .product-list{
+    height: 25vh;
+    width: 45vw;
+    transform: translateY(50%);
+    position: absolute;
+    bottom: 65%;
+  }
+  .app-sec img{
+    width: 100%;
+    height: 100%;
+  }
+  .app-content{
+    height: 50vh;
+    width: 45vw;
+    margin: 0 5%;
+    transform: translateY(-60%);
+  }
+  .app-content h2{
+    display: flex;
+    color: var(--gray);
+    font-size: 0.5em;
+    opacity: 0.5;
+  }
+  .app-content h3{
+    color: var(--claret);
+    font-weight: 900;
+  }
+  .app-content button{
+    border: none;
+    border-bottom: 3px solid var(--claret);
+    background-color: transparent;
+    color: var(--claret);
+    font-weight: 900;
+    font-size: 1em;
+  }
+  .product-card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    border-radius: 10px;
+    margin: 5% 3%;
+  }
+  .product-card *{
+    margin: 3% 1%;
+    width: 100%;
+    height: 100%;
+  }
+  .info-card{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 2%;
+    width: 80%;
+    transform: translateX(5%);
+    text-align: flex-start;
+  }
+  .color-circle{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .color-circle p{
+    width: 2vw;
+    height: 3vh;
+    border-radius: 10px;
+    margin: 0 5%;
+  }
+}
+/* laptop-desktop */
+@media screen and (min-width:1200px){
+  .app-sec .product-list{
+    height: 25vh;
+    width: 45vw;
+    transform: translateY(50%);
+    position: absolute;
+    bottom: 75%;
+  }
+}
