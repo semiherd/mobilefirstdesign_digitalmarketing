@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/digifist_interviewcase/static/css/main.b459c83e.css",
-    "main.js": "/digifist_interviewcase/static/js/main.f13f7cf4.js",
-    "static/js/787.69e017a3.chunk.js": "/digifist_interviewcase/static/js/787.69e017a3.chunk.js",
-    "static/media/bg.png": "/digifist_interviewcase/static/media/bg.c8c13b34b8a2dba3d015.png",
-    "static/media/pr3.png": "/digifist_interviewcase/static/media/pr3.721bdcd98a033e12565e.png",
-    "static/media/pr2.png": "/digifist_interviewcase/static/media/pr2.b653a2015fe9134f753c.png",
-    "static/media/AvenirRegular.ttf": "/digifist_interviewcase/static/media/AvenirRegular.b58b1b9c574d4cabb0ab.ttf",
-    "static/media/pr1.png": "/digifist_interviewcase/static/media/pr1.4b5f955b8f08902a9a8a.png",
-    "index.html": "/digifist_interviewcase/index.html",
-    "main.b459c83e.css.map": "/digifist_interviewcase/static/css/main.b459c83e.css.map",
-    "main.f13f7cf4.js.map": "/digifist_interviewcase/static/js/main.f13f7cf4.js.map",
-    "787.69e017a3.chunk.js.map": "/digifist_interviewcase/static/js/787.69e017a3.chunk.js.map"
+    "main.css": "/mobilefirstdesign_digitalmarketing/static/css/main.d1dcc04b.css",
+    "main.js": "/mobilefirstdesign_digitalmarketing/static/js/main.fe3d6d81.js",
+    "static/js/787.69e017a3.chunk.js": "/mobilefirstdesign_digitalmarketing/static/js/787.69e017a3.chunk.js",
+    "static/media/bg.png": "/mobilefirstdesign_digitalmarketing/static/media/bg.c8c13b34b8a2dba3d015.png",
+    "static/media/pr3.png": "/mobilefirstdesign_digitalmarketing/static/media/pr3.721bdcd98a033e12565e.png",
+    "static/media/pr2.png": "/mobilefirstdesign_digitalmarketing/static/media/pr2.b653a2015fe9134f753c.png",
+    "static/media/AvenirRegular.ttf": "/mobilefirstdesign_digitalmarketing/static/media/AvenirRegular.b58b1b9c574d4cabb0ab.ttf",
+    "static/media/pr1.png": "/mobilefirstdesign_digitalmarketing/static/media/pr1.4b5f955b8f08902a9a8a.png",
+    "index.html": "/mobilefirstdesign_digitalmarketing/index.html",
+    "main.d1dcc04b.css.map": "/mobilefirstdesign_digitalmarketing/static/css/main.d1dcc04b.css.map",
+    "main.fe3d6d81.js.map": "/mobilefirstdesign_digitalmarketing/static/js/main.fe3d6d81.js.map",
+    "787.69e017a3.chunk.js.map": "/mobilefirstdesign_digitalmarketing/static/js/787.69e017a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b459c83e.css",
-    "static/js/main.f13f7cf4.js"
+    "static/css/main.d1dcc04b.css",
+    "static/js/main.fe3d6d81.js"
   ]
 }
